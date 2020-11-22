@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk
+FROM azul/zulu-openjdk-debian
 
 RUN apt-get update
 RUN apt-get install -y python3-pip
