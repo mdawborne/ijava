@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk
+FROM azul/zulu-openjdk-centos
 
 RUN apt-get update; apt-get install -y curl
 RUN apt-get install -y python3-pip
