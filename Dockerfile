@@ -1,4 +1,4 @@
-FROM openjdk:11.0.3-jdk
+FROM zulu11-jdk
 
 RUN apt-get update
 RUN apt-get install -y python3-pip
