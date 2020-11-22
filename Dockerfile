@@ -1,6 +1,6 @@
-FROM azul/zulu-openjdk-debian
+FROM azul/zulu-openjdk
 
-RUN apt-get update
+RUN apt-get update; apt-get install curl
 RUN apt-get install -y python3-pip
 
 # add requirements.txt, written this way to gracefully ignore a missing file
