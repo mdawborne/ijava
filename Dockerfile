@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk
+FROM azul/zulu-openjdk:11
 
 RUN apt-get update; apt-get install -y curl; apt-get install -y zip; apt-get install -y unzip
 RUN apt-get install -y python3-pip
